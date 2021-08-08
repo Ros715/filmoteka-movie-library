@@ -1,0 +1,25 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+
+  @include adaptive-before-tablet {
+    width: 440px;
+  }
+
+  @media screen and (min-width: $phone) and (max-width: 479px){
+    width: 100%;
+  }
+
+  @include adaptive-for-tablet {
+    width: 618px;
+  }
+
+  @include adaptive-for-desktop {
+    width: 882px;
+  }
+}
+.movies .container {
+  @media screen and (min-width: $phone) and (max-width: 479px){
+    padding: 0 20px;
+  }
+}

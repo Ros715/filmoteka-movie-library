@@ -1,0 +1,35 @@
+//Adds media rules for responsive layout
+@mixin adaptive-for-phone {
+  @media screen and (min-width: $phone) {
+    @content;
+  }
+}
+
+@mixin adaptive-for-tablet {
+  @media screen and (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin adaptive-for-desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin adaptive-before-tablet {
+  @media screen and (max-width: $tablet - 1px) {
+    @content;
+  }
+}
+
+@mixin adaptive-before-desktop {
+  @media screen and (max-width: $desktop - 1px) {
+    @content;
+  }
+}
+
+@mixin d-f {
+  display: flex;
+  align-items: center;
+}
