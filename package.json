@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://igorklyopov.github.io/filmoteka-movie-library",
+  "homepage": "https://ros715.github.io/filmoteka-movie-library",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /filmoteka-movie-library/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igorklyopov/filmoteka-movie-library.git"
+    "url": "git+https://github.com/ros715/filmoteka-movie-library.git"
   },
   "keywords": [
     "Filmoteka",
@@ -25,7 +25,7 @@
   "author": "Igor Klyopov <shoot8202@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/igorklyopov/filmoteka-movie-library/issues"
+    "url": "https://github.com/ros715/filmoteka-movie-library/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
